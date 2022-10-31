@@ -8,8 +8,7 @@ def gene_pie_chart(values, labels):
     plt.show()
 
 def gene_bar_chart(values, labels):
-    plt.bar(values, values, align='center', alpha=0.5)
-    plt.xticks(values, labels)
+    plt.bar(values, labels)
     plt.title('bar chart')
     plt.show()
 
