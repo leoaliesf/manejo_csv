@@ -4,4 +4,11 @@ Archivo_csv donde estraigo datos, para crear una grafica (bar chart) dependiendo
 obtuve los datos de kaggle, a tener en cuenta debes tener instalado matplotlib para correr el programa.
 
 
-fuente de obtención de los datos kaggle (("https://www.kaggle.com/datasets/thedevastator/food-prices-year-by-year"))
+fuente de obtención de los datos [kaggle](https://www.kaggle.com/datasets/thedevastator/food-prices-year-by-year"kaggle")
+
+
+Image:
+
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+> Follow your heart.
