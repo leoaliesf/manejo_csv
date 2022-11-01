@@ -1,12 +1,12 @@
 def mensaje():
     print("""hola deberas escoger un valor 
-    para la variable que deseas analizar
-    1.Meat
-    2.Dairy
-    3.Cereals
-    4.Oils
-    5.Sugar
-    6.Food.price.index
+para la variable que deseas analizar
+1.Meat
+2.Dairy
+3.Cereals
+4.Oils
+5.Sugar
+6.Food.price.index
     """)
 
 def analizar(variable2):

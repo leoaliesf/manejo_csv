@@ -9,8 +9,8 @@ def gene_pie_chart(values, labels):
 
 def gene_bar_chart(values, labels):
     plt.bar(values, labels)
-    plt.title('bar chart')
+    plt.title('Bart Chart tiempo vs')
     plt.show()
 
 if __name__ == '__main__':
-    print ('hola me gusta ser un modulo')
+    print ('hola me gusta ser un modulo, que da una grafica')
