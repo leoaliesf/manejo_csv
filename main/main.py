@@ -21,5 +21,5 @@ analizado_list = [float(i) for i in analizado]'''
 df = pd.read_csv('D:\proyecto_csv_python\main\FAOFP1990_2022.csv')
 analizado_list = df[anali].values
 time_1 = df['Date']
-
-grf.gene_bar_chart(time_1, analizado_list)
+print(df.describe())
+grf.gene_xy_chart(time_1, analizado_list)

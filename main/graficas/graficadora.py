@@ -7,9 +7,11 @@ def gene_pie_chart(values, labels):
     ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
     plt.show()
 
-def gene_bar_chart(values, labels):
-    plt.bar(values, labels)
+def gene_xy_chart(values, labels):
+    plt.plot(values, labels,  color='red')
+    plt.xticks(rotation=90)
     plt.title('Food price index from 1990 to 2022')
+    plt.xlabel('Time')
     plt.show()
 
 if __name__ == '__main__':
