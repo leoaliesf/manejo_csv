@@ -3,28 +3,28 @@ def mensaje1():
     print(''' what tables do you want to use ?
 1. Students - career
 2. career - teachers
-3. all_table
+10. exit()
     ''')
 
 def selec_table(num2):
     if num2 == 1:
         return 1
-    elif num == 2:
+    elif num2 == 2:
        return 2     
-    elif num == 3:
-        return 3
     else:
-          print('pick a right choice')
+          print('bye')
+          exit()
 
 
 
 def mensaje2():
-    print("""hi, you have to pick what type of join you want to see
+    print("""hi, you have to pick what type of join you want to see or if you want to see the exercises
 1.inner
 2.left
 3.right
 4.Outer
-5.go to exercises
+5.go to exercise 1
+6. go to exercise 2
 10. exit
     """)
     
@@ -40,10 +40,27 @@ def select_join (num):
     elif num == 3:
           return 'right' 
     elif num == 5:
-        return 'go to exercises'
+        return 5
+    elif num == 6:
+        return 6
+    elif num == 10:
+        exit()
     else:
-        exit
+        print ('select a correct number')
+        exit()
         
+def mensaje3 ():
+    print('''
+    EXERCISE 1
+    step 1. incomes for each career
+    step 2. students from the career with highest income''')
+
+def mensaje4():
+    print('''
+    EXERCISE 2
+    step 1. all tables join (full_table)
+    step 2. teacher from student wiht id ==10
+    ''')
 
 if __name__ == '__main__':
     print (' i like to be module')
